@@ -1,3 +1,19 @@
-body  { color: #000000; font-size: 14px; font-family: "Times New Roman", Arial, Verdana, sans-serif }
-font.VersetArabe    { color: #000000; font-size: 25px; font-family: "Traditional Arabic", "Simplified Arabic" }
-font.Commentaire { color: #000000; font-size: 14px; font-family: "Times New Roman", Arial, Verdana, sans-serif }
+
+body{
+	background-color: #000000; 
+}
+
+#carrousel{
+
+	position:relative;
+	height: 200px;
+	width: 700px;
+	margin: auto;
+}
+
+#carrousel ul li{
+
+	position:absolute;
+	top: 0;
+	left: 0;
+}

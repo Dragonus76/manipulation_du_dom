@@ -10,7 +10,7 @@
         <meta name="keywords" content="jQuery, Javascript, HTML5, CSS3, Bootstrap">
         <meta name="author" content="Mustapha sadki">
             
-        <title>Mooc OpenClassRoom </title>
+        <title>Mooc OpenClassRoom/slide </title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -23,73 +23,26 @@
 
     </head>
     <body>
-    	<div class="container">
 
-    		<p>
-    			
-    			<h1>Manipulation du texte</h1>
+        <div id="carrousel">
 
-Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux.
+            <ul>
 
-1. Louange à Allah qui a fait descendre sur Son serviteur (Muhammad), le Livre, et n'y a point introduit de tortuosité (ambiguïté)!
+                <li><img src="../images/ass.gif"/></li>
+                 <li><img src="../images/ass1.gif"/></li>
+                  <li><img src="../images/ass2.gif"/></li>
+                   <li><img src="../images/ass3.gif"/></li>
+                    <li><img src="../images/ass4.gif"/></li>
 
-2. [Un livre] d'une parfaite droiture pour avertir d'une sévère punition venant de Sa part et pour annoncer aux croyants qui font de bonnes oeuvres qu'il y aura pour eux une belle récompense.
 
-3. où ils demeureront éternellement,
-
-4. et pour avertir ceux qui disent: "Allah S'est attribué un enfant."
-
-5. Ni eux ni leurs ancêtres n'en savent rien. Quelle monstrueuse parole que celle qui sort de leurs bouches! Ce qu'ils disent n'est que mensonge.
+                
 
 
 
-    		</p>
-    		
-    	</div>
-    	<script type="text/javascript">
-    		$('p').text('Nouveau contenu !'); // Remplace le contenu du 
-$('div').html(); // renvoie le code HTML contenu dans ce bloc div
 
-$('div').html('<p>Nouveau <strong>code</strong> !</p>'); // remplace le code HTML actuel par celui-ci
-
-
-$('p').prepend('<strong>Texte inséré avant le contenu actuel.</strong> ');
-
-$('p').append(' <strong>Texte inséré après le contenu actuel.</strong>');
-
-$('p').append( $('h1') );
-$('p').append( $('h1') );
-// ici, on ajoute le contenu du titre après avoir sélectionné notre élément
-
-$('h1').appendTo( $('p') );
-/* alors qu'ici, on sélectionne d'abord le contenu du titre,
-et on le déplace après le contenu actuel de notre élément receveur */
-
-$('p').prepend( $('.description') );
-// on ajoute le contenu de .description avant le contenu de notre paragraphe
-
-$('.container').prependTo('p');
-// on peut spécifier directement l'élément, sans passer par un objet
-$('p').before('<p>Paragraphe précédent</p>');
-
-$('p').after('<p>Paragraphe suivant</p>');
-$('<input />', {
-    type : "text",
-    name : "pseudo"
-}); // non supporté par IE
-
-// la variable contiendra l'élément lui-même, ainsi que son contenu
-// n'oubliez pas de placer l'élément ensuite
-
-/**
-$('p').empty(); // vide l'élément, seules subsisteront les balises <p></p> et leurs attributs
-
-$('p').remove(); // supprime l'élément, avec son contenu, rien n'en restera
-
-$('div').remove('.suppression'); // supprime les éléments portant la classe .suppression parmi les blocs div trouvés
-
-
-    	</script>
+            </ul>
+    	
+    	
     </body>
     </html>
   
